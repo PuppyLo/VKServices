@@ -1,0 +1,1 @@
+C:\Users\g-ras\source\repos\VKServices\VKServices.csproj;x64

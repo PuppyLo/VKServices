@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VKServices.MainPage">
+
+    <Grid Margin="20,35,20,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="250" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Entry
+            Grid.Column="0"
+            Grid.Row="0"
+            x:Name="token_txt"
+            Text="1"
+            FontSize="15"
+            MaximumHeightRequest="35"
+            HorizontalOptions="Center" />
+
+        <Entry
+            Grid.Column="1"
+            Grid.Row="0"
+            x:Name="GroupID_txt"
+            Text="1"
+            FontSize="15"
+            MinimumHeightRequest="10"
+            MaximumHeightRequest="35"
+            HorizontalOptions="Center" />
+
+        <Image
+            Grid.Column="0"
+            Grid.Row="2"
+            x:Name="GroupAVA_img"
+            Source="dotnet_bot.png"
+            HorizontalOptions="Start" 
+            VerticalOptions="Center"/>
+
+        <Label
+            Padding="0,0,5,20"
+            Grid.Column="0"
+            Grid.Row="1"
+            x:Name="GroupName_txt"
+            Text="Group Name"
+            FontSize="25"
+            TextColor="Aquamarine"
+            HorizontalOptions="Start" 
+            VerticalOptions="End"/>
+
+        <Button
+            Grid.Column="2"
+            Grid.Row="0"
+            x:Name="AuthBtn"
+            Text="Authorization"
+            FontSize="15"
+            MaximumHeightRequest="35"
+            Clicked="AuthBtn_Clicked"
+            HorizontalOptions="Center" />
+
+        <Button
+            Grid.Column="1"
+            Grid.Row="1"
+            x:Name="WallPostPageBtn"
+            Text="WallPost Page"
+            FontSize="15"
+            MaximumHeightRequest="35"
+            Clicked="WallPostPageBtn_Clicked"
+            HorizontalOptions="Center" />
+
+        <Button
+            x:Name="SelectFolder_btn"
+            FontSize="15"
+            Text="SelectFolder"
+            MaximumHeightRequest="35"
+            Clicked="OnPickFolder_Clicked"
+            />
+
+    </Grid>
+
+</ContentPage>
