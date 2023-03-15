@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\PuppyLo\Documents\GitHub\VKServices\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-26T19:02:35.600</Modified>
+      <Modified>2023-03-15T14:52:43.034</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -1076,7 +1076,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PuppyLo\Documents\GitHub\VKServices\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\VKServices.deps.json">
       <PackagePath>VKServices.deps.json</PackagePath>
-      <Modified>2023-02-26T19:02:35.441</Modified>
+      <Modified>2023-03-15T14:52:42.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PuppyLo\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
