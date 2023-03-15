@@ -20,7 +20,7 @@ public partial class WallPostPage : ContentPage
 private void WallPostBtn_Clicked(object sender, EventArgs e)
     {
         var GroupKyda = Convert.ToInt64(WallPostOwnerID_txt.Text);
-        var CountImage = new DirectoryInfo(Environment.CurrentDirectory).GetFiles().Length;
+        //var CountImage = new DirectoryInfo(Environment.CurrentDirectory).GetFiles().Length;
         var Day = Convert.ToSByte(WallPostDay_txt.Text);
         var Hour = Convert.ToSByte(WallPostHours_txt.Text);
 

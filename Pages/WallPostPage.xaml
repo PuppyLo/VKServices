@@ -15,19 +15,19 @@
 
         <Entry 
             x:Name="WallPostOwnerID_txt"
-            Text="Welcome to .NET MAUI!"
+            Text="Введите ID группы"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Entry 
             x:Name="WallPostDay_txt"
-            Text="Welcome to .NET MAUI!"
+            Text="На сколько дней отложить запись?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Entry 
             x:Name="WallPostHours_txt"
-            Text="Welcome to .NET MAUI!"
+            Text="На сколько часов отложить запись?"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 

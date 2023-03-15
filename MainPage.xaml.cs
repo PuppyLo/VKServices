@@ -53,7 +53,7 @@ public partial class MainPage : ContentPage
         catch
         {
             GroupName_txt.TextColor = Colors.Red;
-            GroupName_txt.Text = "Вход не выполнене, проверьте введеные данные!";
+            GroupName_txt.Text = "Вход не выполнен, проверьте введённые данные!";
             GroupAVA_img.Source = @"dotnet_bot.png";
         }
 
@@ -71,6 +71,7 @@ public partial class MainPage : ContentPage
         var pickedFolder = await _folderPicker.PickFolder();
 
         WallPostPage.selectFolder = pickedFolder;
+        SelectFolder_btn.Text = pickedFolder;
     }
 }
 

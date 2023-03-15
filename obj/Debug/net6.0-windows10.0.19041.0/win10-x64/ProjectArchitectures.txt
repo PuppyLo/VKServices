@@ -1,1 +1,1 @@
-C:\Users\g-ras\Documents\GitHub\VKServices\VKServices.csproj;x64
+C:\Users\PuppyLo\Documents\GitHub\VKServices\VKServices.csproj;x64
